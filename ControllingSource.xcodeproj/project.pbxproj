@@ -89,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E10EDA9C197DA0C2004B18D8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E163C9D8197D989600A89C31 /* JPMMasterViewController.h */,
+				E163C9D9197D989700A89C31 /* JPMMasterViewController.m */,
+				E163C9DB197D989700A89C31 /* JPMDetailViewController.h */,
+				E163C9DC197D989700A89C31 /* JPMDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		E163C9B2197D989600A89C31 = {
 			isa = PBXGroup;
 			children = (
@@ -126,10 +137,7 @@
 				E163C9CF197D989600A89C31 /* JPMAppDelegate.h */,
 				E163C9D0197D989600A89C31 /* JPMAppDelegate.m */,
 				E163C9D2197D989600A89C31 /* Main.storyboard */,
-				E163C9D8197D989600A89C31 /* JPMMasterViewController.h */,
-				E163C9D9197D989700A89C31 /* JPMMasterViewController.m */,
-				E163C9DB197D989700A89C31 /* JPMDetailViewController.h */,
-				E163C9DC197D989700A89C31 /* JPMDetailViewController.m */,
+				E10EDA9C197DA0C2004B18D8 /* View Controllers */,
 				E163C9DE197D989700A89C31 /* Images.xcassets */,
 				E163C9D5197D989600A89C31 /* ControllingSource.xcdatamodeld */,
 				E163C9C7197D989600A89C31 /* Supporting Files */,
@@ -473,6 +481,7 @@
 				E163C9F8197D989700A89C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E163C9F9197D989700A89C31 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +490,7 @@
 				E163C9FB197D989700A89C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
